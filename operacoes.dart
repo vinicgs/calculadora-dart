@@ -11,8 +11,8 @@ class operacoes {
     return a * b;
   }
 
-  static int divisao(int a, int b) {
-    return a ~/ b;
+  static double divisao(int a, int b) {
+    return a / b;
   }
   
 }

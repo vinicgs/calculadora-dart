@@ -29,16 +29,16 @@ void main(List<String> args) {
   try {
     switch (mostrar) {
       case 1:
-        print('A soma é: ${operacoes.soma(x, y)}');
+        print('A soma de ${x} por ${y} é : ${operacoes.soma(x, y)}');
         break;
       case 2:
-        print('A subtração é: ${operacoes.subtracao(x, y)}');
+        print('A subtração de ${x} por ${y} é : ${operacoes.subtracao(x, y)}');
         break;
       case 3:
-        print('A multiplicação é: ${operacoes.multiplicacao(x, y)}');
+        print('A multiplicação de ${x} por ${y} é : ${operacoes.multiplicacao(x, y)}');
         break;
       case 4:
-        print('A divisão é: ${operacoes.divisao(x, y)}');
+        print('A divisão de ${x} por ${y} é : ${operacoes.divisao(x, y)}');
         break;
       default:
         print('Opção inválida');

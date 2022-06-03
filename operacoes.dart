@@ -14,5 +14,4 @@ class operacoes {
   static double divisao(int a, int b) {
     return a / b;
   }
-  
 }
